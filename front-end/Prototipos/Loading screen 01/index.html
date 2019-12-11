@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loading Screen</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    
+    <body>
+        
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        
+        <script>
+            $(window).on("load", function(){
+               $(".loader-wrapper").fadeOut("slow"); 
+            });
+        </script>
+    </body>
+</html>
